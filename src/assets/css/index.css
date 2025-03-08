@@ -1,1 +1,38 @@
 @import "tailwindcss";
+
+@font-face {
+  font-family: "BYekan";
+  src: url("/fonts/BYekan.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "IranSans";
+  src: url("/fonts/IranSans.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@theme {
+  --font-primary: "IRANSans", sans-serif;
+  --font-secondary: "BYekan", sans-serif;
+
+  --color-darkPrimary: #5178f5;
+  --color-lightBlue: #dae0f4;
+  --color-skyBlue: #ddf1f7;
+  --color-darkGray: oklch(0.3 0 0);
+  --color-lightred: #e35d85;
+  --color-grayMedium: #424242;
+}
+
+/* for selectBox */
+.css-qj5c82 {
+  height: 25px !important;
+}
+.css-qj5c82 {
+  height: 25px !important;
+}
+.css-4st35k {
+  padding: 0 !important;
+  margin: 0 !important;
+}
