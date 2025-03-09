@@ -98,6 +98,7 @@ const SelectBox: React.FC<SelectBoxProps> = ({
         onChange={handleChange}
         styles={customStyles}
         placeholder={placeholder ? placeholder : "انتخاب کنید"}
+        isSearchable={false}
       />
     </div>
   );
