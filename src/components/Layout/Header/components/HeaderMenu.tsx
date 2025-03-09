@@ -30,11 +30,12 @@ const HeaderMenu = () => {
         />
       </div>
 
-      <ul className="flex flex-col md:flex-row md:items-center  md:justify-end w-full md:w-fit gap-4 md:gap-x-8 font-primary text-[15px] md:text-[16px]">
+      <ul className="flex flex-col md:flex-row-reverse md:items-center md:justify-end w-full md:w-fit gap-4 md:gap-x-8 font-primary text-[15px] md:text-[16px] text-right">
         {menuOption.map((item) => (
           <li
             key={item.path}
-            className="cursor-pointer text-grayMedium font-secondary bg-[#F7F9FF] md:bg-transparent py-2 px-4 md:px-0 rounded-md shadow-sm md:shadow-none hover:bg-[#eaf1ff] md:hover:bg-transparent transition-all"
+            className="cursor-pointer text-grayMedium font-secondary bg-[#F7F9FF] md:bg-transparent py-2 px-4 md:px-0 rounded-md shadow-sm 
+      md:shadow-none hover:bg-[#eaf1ff] md:hover:bg-transparent transition-all"
           >
             <Link to={item.path} className="block hover:text-blue-600">
               {item.label}
