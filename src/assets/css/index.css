@@ -20,9 +20,10 @@
   --color-darkPrimary: #5178f5;
   --color-lightBlue: #dae0f4;
   --color-skyBlue: #ddf1f7;
-  --color-darkGray: oklch(0.3 0 0);
   --color-lightred: #e35d85;
+  --color-darkGray: oklch(0.3 0 0);
   --color-grayMedium: #424242;
+  --color-gray3: #8c8c8c;
 }
 
 /* for selectBox */
