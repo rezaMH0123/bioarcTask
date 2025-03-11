@@ -1,6 +1,5 @@
-import { IconProps } from "@material-ui/core";
 import CallIcon from "../../Icons/CallIcon";
-import HealthIcon from "../../Icons/Health";
+import HealthIcon, { IconProps } from "../../Icons/Health";
 
 type TmenuItems = {
   path: string;

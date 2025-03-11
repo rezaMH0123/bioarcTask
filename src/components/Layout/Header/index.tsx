@@ -36,7 +36,7 @@ export default function Header() {
             </div>
             <LanguageToggle />
           </div>
-          <div className="hidden md:block mt-4 lg:mt-0 ml-auto">
+          <div className="hidden md:block mt-4 lg:mt-0 ml-auto mr-10 lg:mr-0">
             <img src={companyLogo} alt="company-logo" />
           </div>
         </div>

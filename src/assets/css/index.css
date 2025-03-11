@@ -18,8 +18,12 @@
   --font-secondary: "BYekan", sans-serif;
 
   --color-darkPrimary: #5178f5;
+  --color-MidnightSteel: #2f3e63;
   --color-lightBlue: #dae0f4;
+  --color-DeepBlue: #36459b;
+  --color-SoftBlue: #f4f6fb;
   --color-skyBlue: #ddf1f7;
+  --color-sky2: #def5fe;
   --color-lightred: #e35d85;
   --color-darkGray: oklch(0.3 0 0);
   --color-grayMedium: #424242;

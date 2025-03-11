@@ -1,12 +1,11 @@
-import Layout from "./components/Layout";
+import { RouterProvider } from "react-router";
+import router from "./core/routes/route";
 
 function App() {
   return (
-    <>
-      <div className="h-screen m-w-[1440px]">
-        <Layout></Layout>
-      </div>
-    </>
+    <div className="h-screen mx-auto">
+      <RouterProvider router={router} />
+    </div>
   );
 }
 
