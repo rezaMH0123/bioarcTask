@@ -45,7 +45,7 @@ const Sidebar = () => {
         <Bars3Icon className="w-6 h-6 text-gray-700" />
       </button>
 
-      <div className="hidden lg:block border border-skyBlue w-[260px] h-[800px] mt-[85px]">
+      <div className="hidden lg:block border border-skyBlue w-[260px] h-full mt-[85px]">
         {renderSidebarContent()}
       </div>
 

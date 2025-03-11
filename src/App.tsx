@@ -3,7 +3,7 @@ import router from "./core/routes/route";
 
 function App() {
   return (
-    <div className="h-screen mx-auto">
+    <div className="mx-auto">
       <RouterProvider router={router} />
     </div>
   );

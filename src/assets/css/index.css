@@ -24,10 +24,14 @@
   --color-SoftBlue: #f4f6fb;
   --color-skyBlue: #ddf1f7;
   --color-sky2: #def5fe;
+  --color-sky3: #b2c6e3;
   --color-lightred: #e35d85;
   --color-darkGray: oklch(0.3 0 0);
   --color-grayMedium: #424242;
   --color-gray3: #8c8c8c;
+  --shadow-Rx: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px,
+    rgba(0, 0, 0, 0.1) 0px 2px 4px 0px,
+    rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
 }
 
 /* for selectBox */
